@@ -27,3 +27,10 @@ Fixes:
 
 20 Apr 2024: replaced CTS256 with TMS7001.  Works fine, says "OK" on reset.  Accepts input from serial port.  Acts just like a CTS256.
 
+
+
+The Radio Shack CTS256 is essentially a specially programmed TMS7001 microcontroller.  The TMS7001 can be configured to use an external EPROM and act just like a CTS256
+
+For those interested in TMS7000 series microcontrollers, the family databook can be found here:
+
+http://bitsavers.informatik.uni-stuttgart.de/components/ti/TMS7000/SPND001C_TMS7000_Family_Data_Manual_1989.pdf
